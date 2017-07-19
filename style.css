@@ -1,0 +1,36 @@
+*, .weather_Location {
+  font-size: 18px;
+}
+html{
+  position:relative;
+  height: 100%;
+}
+.weather_Location {
+  font-size: 7em;
+}
+.temp_deg, .temp_deg_units, .date_time {
+  font-size: 4em;
+}
+.toggle.android { border-radius: 0px;}
+.toggle.android .toggle-handle { border-radius: 0px; }
+div.container{
+  border-radius: 10px;
+  margin-top:30px;
+  margin-bottom: 30px;
+  background:rgba(255,255,255, 0.5);
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1;
+}
+footer {
+  padding-top: 15px;
+  height: 100px;
+  background:rgba(255,255,255, 0.5);
+  font-family: 'Open Sans', sans-serif;
+}

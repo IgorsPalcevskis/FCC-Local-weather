@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Local Weather</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Contrail+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="text-center main_body">
+  <div class="container content">
+    <h1 class="weather_Location"></h1>
+      <div class="icon"></div>
+      <div><span class="temp_deg"></span><span class="temp_deg_units"></span></div>
+      <input type="checkbox" checked data-toggle="toggle" data-style="android" data-on="Celsius" data-off="Fahrenheit" data-onstyle="default" onclick="weatherDataFahrenheit()" >
+    <div>
+      <p class="date_time"></p>
+    </div>
+  </div>
+  <footer>
+    <p>This website is built using <a href="http://openweathermap.org/" target="_blank">openweathermap.org</a> and <a href="http://ip-api.com/docs/api:json" target="_blank">ip-api.com</a> APIs</p>
+    <p>Coded by <a href="https://www.facebook.com/dragnetlv" target="_blank">Igors Palcevskis</a></p>
+  </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+<script src="java.js"></script>
+</body>
+</html>
